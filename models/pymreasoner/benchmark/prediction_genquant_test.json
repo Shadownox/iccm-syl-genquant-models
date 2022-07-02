@@ -1,0 +1,7 @@
+{
+    "type": "prediction",
+    "data.test": "data/Ragni21_22_short.csv",
+    "models": [
+        {"filename": "../ccobra_mreasoner_genquant.py"}
+    ]
+}

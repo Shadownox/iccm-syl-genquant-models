@@ -1,0 +1,15 @@
+{
+    "type": "coverage",
+	"data.pre_train": "../data/Ragni21_22_classic.csv",
+    "data.test": "../data/Ragni21_22_classic.csv",
+	"corresponding_data": true,
+    "domains": ["syllogistic-generalized"],
+    "response_types": ["single-choice"],
+    "models": [
+		"../models/random/",
+		{"filename": "../models/ubcf/ubcf.py", "args": {"k" : 12, "exp" : 3}},
+		"../models/mfa/mfa_course.py",
+        {"filename": "../models/pymreasoner/ccobra_mreasoner_cache_genquant.py", "args": {"cache_file": "caches/genQuant_cache_6its.npy"}},
+        "../models/phm/ccobra_phm_indiv.py"
+    ]
+}

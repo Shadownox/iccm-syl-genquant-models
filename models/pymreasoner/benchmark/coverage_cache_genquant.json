@@ -1,0 +1,7 @@
+{
+    "type": "coverage",
+    "data.test": "data/Ragni21_22.csv",
+    "models": [
+        {"filename": "../ccobra_mreasoner_cache_genquant.py", "args": {"cache_file": "caches/genQuant_cache_6its.npy"}}
+    ]
+}

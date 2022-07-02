@@ -1,0 +1,10 @@
+{
+    "type": "coverage",
+    "data.test": "data/Ragni2016.csv",
+    "models": [
+        {"filename": "../ccobra_mreasoner.py"}
+    ],
+    "domain_encoders": {
+        "syllogistic": "%ccobra%/syllogistic/encoder_syl.py"
+    }
+}
